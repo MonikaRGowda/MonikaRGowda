@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>MONIKA R</title>
+    <style>
+        body {
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background.jfif);
+            background-position: center;
+            object-fit: cover; 
+            display: block; 
+            background-size: cover;
+            position: relative;
+            background-color: #1f1c1d;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        header {
+            color: aliceblue;
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        section {
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #e4daea;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        section ul {
+            color: #efe3e3;
+            font-size: 1rem;
+        }
+        .section-image {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            margin-top: 0px;
+            position: left;
+            transition:  background-color 0.5s ease, transform 0.5s ease;
+        }
+        .section-image:hover {
+            background-color: rgb(2, 2, 21);
+            transform: scale(1.2);
+        }
+        .contactme {
+            width: 100%;
+            height: 30%;
+            border-radius: 10px;
+            margin-top: 0px;
+            position: left;
+            transition:  background-color 0.5s ease, transform 0.5s ease;
+        }
+        .contactme:hover {
+            background-color: rgb(2, 2, 21);
+            transform: scale(1.2);
+        }
+        .skills {
+            width: 100%;
+            height: 60%;
+            border-radius: 10px;
+            margin-top: 0px;
+            position: left;
+            transition:  background-color 0.5s ease, transform 0.5s ease;
+        }
+        .skills:hover {
+            background-color: rgb(2, 2, 21);
+            transform: scale(1.2);
+        }
+        /* Container for each character */
+        .character-container {
+            margin-bottom: 20px;
+        }
+
+        /* Label for the character */
+        .character-label {
+            color: #e4daea;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        /* Container for the percentage scale */
+        .percentage-container {
+            width: 100%;
+            background-color: #f3f3f3;
+            border-radius: 15px;
+            padding: 3px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        /* Progress bar style */
+        .progress-bar {
+            height: 10px;
+            background-color: #051139;
+            border-radius: 25px;
+            line-height: 10px;
+        }
+        .projects {
+            width: 100%;
+            height: 35%;
+            border-radius: 10px;
+            margin-top: 0px;
+            position: left;
+            transition:  background-color 0.5s ease, transform 0.5s ease;
+        }
+        .projects:hover {
+            background-color: rgb(2, 2, 21);
+            transform: scale(1.2);
+        }
+
+    </style>
+    <body>
+        <header>
+            <h1>MONIKA R</h1>
+            <p>AIML 3rd sem</p>
+        </header>
+        <main>
+            <section id="image">
+                <img src="profile.jpeg" class="section-image">
+            </section>
+
+            <section id="profile" >
+                <ul class="contactme">
+                <h2>CONTACT ME</h2>
+                <li><i class="fas fa-envelope"></i> monikargowda800@gmail.com</li>
+                <li><i class="fas fa-phone"></i> +91 77951 86880</li>
+                <li><i class="fab fa-linkedin"></i> linkedin.com/in/monika-r</li>
+                </ul>
+                <br>
+                <ul class="projects">
+                    <h2>PROJECTS</h2>
+                    <li>part of google solution challenge-<br>"scholar sync"</li>
+                    <li>part of shark tank-<br>"Piezo lamps"</li>
+                    </ul>
+            </section>
+            <section id="skills" class="skills">
+                <h2>SKILLS</h2>
+                <div class="character-container">
+                    <span class="character-label">C++:</span>
+                    <div class="percentage-container" style="width: 30%;">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="character-container">
+                    <span class="character-label">HTML and CSS:</span>
+                    <div class="percentage-container" style="width: 30%;">
+                        <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+                <div class="character-container">
+                    <span class="character-label">Java:</span>
+                    <div class="percentage-container" style="width: 30%;">
+                        <div class="progress-bar" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="character-container">
+                    <span class="character-label">Problem solving skills:</span>
+                    <div class="percentage-container" style="width: 30%;">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="character-container">
+                    <span class="character-label">ANALYTICAL THINKING:</span>
+                    <div class="percentage-container" style="width: 30%;">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+            
+                <div class="character-container">
+                    <span class="character-label">CREATIVITY:</span>
+                    <div class="percentage-container" style="width: 30%;">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </body>
+</body>
+</html>
